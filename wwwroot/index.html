@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <title>Bootstrap 4 Starter Template</title>
+  </head>
+  <body>
+      <nav class="navbar navbar-expand-xl navbar-dark bg-primary">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="https://en.wikipedia.org/wiki/Five_Field_Kono">Five field kono</a>
+    </div>
+  </div>
+</nav>
+    <div class="board" id="game">
+      <div class="cellprefix">1</div>
+      <div class="gamecell" id="0-0" data-row="0" data-column="0">
+      </div>
+      <div class="gamecell grey" id="1-0" data-row="0" data-column="1"></div>
+      <div class="gamecell" id="2-0" data-row="0" data-column="2"></div>
+      <div class="gamecell grey" id="3-0" data-row="0" data-column="3"></div>
+      <div class="gamecell" id="4-0" data-row="0" data-column="4"></div>
+      <div class="cellprefix">2</div>
+      <div class="gamecell grey" id="0-1" data-row="1" data-column="0"></div>
+      <div class="gamecell" id="1-1" data-row="1" data-column="1"></div>
+      <div class="gamecell grey" id="2-1" data-row="1" data-column="2"></div>
+      <div class="gamecell" id="3-1" data-row="1" data-column="3"></div>
+      <div class="gamecell grey" id="4-1" data-row="1" data-column="4"></div>
+      <div class="cellprefix">3</div>
+      <div class="gamecell" id="0-2" data-row="2" data-column="0"></div>
+      <div class="gamecell grey" id="1-2" data-row="2" data-column="1"></div>
+      <div class="gamecell" id="2-2" data-row="2" data-column="2"></div>
+      <div class="gamecell grey" id="3-2" data-row="2" data-column="3"></div>
+      <div class="gamecell" id="4-2" data-row="2" data-column="4"></div>
+      <div class="cellprefix">4</div>
+      <div class="gamecell grey" id="0-3" data-row="3" data-column="0"></div>
+      <div class="gamecell" id="1-3" data-row="3" data-column="1"></div>
+      <div class="gamecell grey" id="2-3" data-row="3" data-column="2"></div>
+      <div class="gamecell" id="3-3" data-row="3" data-column="3"></div>
+      <div class="gamecell grey" id="4-3" data-row="3" data-column="4"></div>
+      <div class="cellprefix">5</div>
+      <div class="gamecell" id="0-4" data-row="4" data-column="0"></div>
+      <div class="gamecell grey" id="1-4" data-row="4" data-column="1"></div>
+      <div class="gamecell" id="2-4" data-row="4" data-column="2"></div>
+      <div class="gamecell grey" id="3-4" data-row="4" data-column="3"></div>
+      <div class="gamecell" id="4-4" data-row="4" data-column="4"></div>
+      <div class="cellprefix"></div>
+      <div class="cellprefix">a</div>
+      <div class="cellprefix">b</div>
+      <div class="cellprefix">c</div>
+      <div class="cellprefix">d</div>
+      <div class="cellprefix">e</div>
+      <div id="turn"></div>
+    <button id="pva" type="button" class="btn">P vs AI</button>
+    <button id ="pvp" type="button" class="btn">P vs P</button>
+    <button id ="reset" type="button" class="btn">Reset</button>
+    <button id ="aivsai" type="button" class="btn">AI vs AI</button>
+    </div>
+<footer class="page-footer font-small blue pt-4">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">For a school project in TalTech</h5>
+        <p>Made By Zeyad Saber Refaei Kenawi</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="https://gitlab.cs.ttu.ee/zekena/icd0006-2019s">Gitlab repo</a>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+</footer>
+    <!-- Footer -->
+<!-- Footer -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="mystyle.css" />
+    <script src="main.js"></script>
+    <script type="text/javascript" script-name="annie-use-your-telescope" src="http://use.edgefonts.net/annie-use-your-telescope.js"></script>
+    <script type="text/javascript" script-name="alfa-slab-one" src="http://use.edgefonts.net/alfa-slab-one.js"></script>
+  </body>
+</html>
